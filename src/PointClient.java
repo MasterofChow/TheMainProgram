@@ -26,7 +26,7 @@ public class PointClient {
         System.out.println(p1.slope(p2));
 
         System.out.println(p1.manhattanDistance(p2));
-        
+
         System.out.println("The point is collinear: " + p1.isCollinear(p2,p3));
     }
 }
