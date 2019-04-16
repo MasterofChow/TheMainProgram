@@ -1,3 +1,7 @@
+//Max Chow
+//4/16/19
+//This program calculates the area and circumference of a circle from the given radius
+
 import java.util.*;
 
 public class Circle58 {

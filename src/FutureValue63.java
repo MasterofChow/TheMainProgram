@@ -1,3 +1,7 @@
+//Max Chow
+//4/16/19
+//This calculates the future value of a given interests rate and investment
+
 import java.util.*;
 
 public class FutureValue63 {
