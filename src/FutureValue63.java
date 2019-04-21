@@ -21,7 +21,7 @@ public class FutureValue63 {
         double percentageYear5 = Math.pow((1 + interestRate),5);
         double futureValue5Years = investment * percentageYear5;
         futureValue5Years = Math.round(futureValue5Years);
-        System.out.println("After 5 years: " + futureValue5Years);
+        System.out.printf("After 5 years: %.2f%n" , futureValue5Years);
 
         double percentageYear10 = Math.pow((1 + interestRate),10);
         double futureValue10Years = investment * percentageYear10;
