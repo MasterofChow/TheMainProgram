@@ -1,7 +1,7 @@
 import java.util.*;
 
 public class SmallestNumber {
-    public static void FindingSmallest() {
+    public static void main(String[] args) {
         double number1;
         double number2;
         double number3;
@@ -24,7 +24,7 @@ public class SmallestNumber {
         }
 
         if (number3 < smallestNumber) {
-            smallestNumber = number3
+            smallestNumber = number3;
         }
         System.out.println("The smallest number is " + smallestNumber);
     }
