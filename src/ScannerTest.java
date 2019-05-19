@@ -9,6 +9,7 @@ public class ScannerTest {
         System.out.println("What is your name?");
         String userName = scanner.nextLine();
         System.out.println("Your name is " + userName);
+
     }
 
 }

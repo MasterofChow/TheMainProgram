@@ -13,16 +13,17 @@ public class ReadingFile {
         {
             String lines = input.nextLine();
             Scanner line = new Scanner(lines);
-//            System.out.println(lines);
+            System.out.println(lines);
             while (input.hasNext()) {
                 if (line.hasNextInt()) {
                     int integer = line.nextInt();
-//                    System.out.println(integer);
+                    System.out.println(integer);
                     count++;
                 } else {
                     String integer = line.next();
                 }
             }
         }
-        System.out.println("There are " + count + " number"); }
+        System.out.println("There are " + count + " number");
+    }
 }

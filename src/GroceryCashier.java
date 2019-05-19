@@ -4,7 +4,6 @@ public class GroceryCashier {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        boolean item = true;
         double price = 0.00;
         int items = 0;
             System.out.println("Do you have an item to scan? (yes or no)");
